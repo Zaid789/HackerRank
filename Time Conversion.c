@@ -1,3 +1,5 @@
+/*https://www.hackerrank.com/challenges/time-conversion/problem*/
+
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -5,6 +7,7 @@ int main()
     int hr,min,sec;
     char m[2];
     scanf("%d:%d:%d%s",&hr,&min,&sec,&m);
+    /*code for Time Conversion*/
     if(strcmp(m,"PM")==0&&hr!=12||strcmp(m,"AM")==0&&hr==12)
     hr+=12;
     hr%=24;
