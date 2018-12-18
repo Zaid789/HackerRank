@@ -1,5 +1,10 @@
+/*https://www.hackerrank.com/challenges/two-strings/problem*/
+
+
+
 #include<stdio.h>
 #include<string.h>
+/*---------------------code---------------------------------------*/
 char* twoStrings(char* s1, char* s2)
 {
     long long int i,j,k,z;
