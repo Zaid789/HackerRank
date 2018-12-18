@@ -1,3 +1,5 @@
+/*https://www.hackerrank.com/challenges/birthday-cake-candles/problem*/
+
 #include<stdio.h>
 void main()
 {
@@ -6,6 +8,7 @@ void main()
 	int ar[ar_count];
 	for(int i=0 ; i < ar_count ; i++)
 		scanf("%d",&ar[i]);
+	/*code for Birthday Cake Candles*/
 	int l=ar[0];
  	int c=0;
 	int i;
