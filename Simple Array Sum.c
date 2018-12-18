@@ -1,3 +1,7 @@
+/*https://www.hackerrank.com/challenges/simple-array-sum/problem*/
+
+
+
 #include<stdio.h>
 void main()
 {
@@ -6,6 +10,7 @@ void main()
 	int arr [ele];
 	for(int i=0 ; i < ele ; i++)
 		scanf("%d", &arr[i]);
+	/*code for adding array elements */
 	for(int i=0 ; i < ele ; i++)
 		 sum+=arr[i];
 	printf("%d\n" , sum);
