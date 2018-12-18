@@ -1,4 +1,7 @@
+/*https://www.hackerrank.com/challenges/angry-professor/problem*/
+
 #include<stdio.h>
+/*code for Angry Professor*/
 char* angryProfessor(int k, int a_count, int* a)
 {
 int  z=0;
