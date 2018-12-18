@@ -1,3 +1,5 @@
+/*https://www.hackerrank.com/challenges/minimum-distances/problem*/
+
 #include<stdio.h>
 void main()
 {
@@ -6,6 +8,7 @@ void main()
 	long long  int a[a_count];
 	for(int r=0;r<a_count;r++)
 		scanf("%llu",&a[r]);
+	/*---------------------code-------------------------*/
 	int i,j,z=0;
 	for(i=0;i<a_count;i++)
 	{
