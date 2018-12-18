@@ -1,3 +1,6 @@
+/*https://www.hackerrank.com/challenges/find-digits/problem*/
+
+
 #include<stdio.h>
 void main()
 {
@@ -8,6 +11,7 @@ void main()
 	c=0;
 	scanf("%d",&num);
 	tmp=num;
+	/*-------------code---------------*/
 	while(tmp)
 	{
        		 t=tmp%10;
